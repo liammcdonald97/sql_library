@@ -581,3 +581,4 @@ INNER JOIN book_copies ON book_authors.book_id = book_copies.book_id
 WHERE author_name = 'Stephen King' AND branch_id = 2
 GO
 
+EXEC stephen_king_copies_at_central
